@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#scatter-plot-container {
+    position: relative;
+}
+
+#title {
+    text-align: center;
+}
+
+#scatter-plot {
+    display: inline-flex;
+    min-width: 100%;
+    justify-content: center;
+}
+
+.dot {
+    stroke: black;
+    opacity: 0.8;
+}
+
+#tooltip {
+    position: absolute;
+    background-color: lightblue;
+    padding: 10px 20px;
+}
+
+.tooltip--hidden {
+    display: none;
+}
+
+#yAxis-title {
+    font-size: 20px;
+}
+
+#xAxis-title {
+    font-size: 20px;
+}
